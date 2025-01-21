@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.left {
+    background-color: #202123;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.functions {
+    width: 100%;
+    padding: 0;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.title {
+    margin: 1.5rem 0.2rem 1.5rem 0.2rem;
+    border-bottom: 1px solid white;
+    padding-bottom: 0.2rem;
+}
+
+.selected {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.logout {
+    width: 100%;
+    margin: 0.5rem 0 0 0.5rem;
+    padding: 0;
+    color: white;
+}
+
+.function {
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0.5rem 0.2rem 0.5rem 0.2rem;
+    padding: 0.5rem;
+    transition: ease all 0.8s;
+}
+
+.function:hover {
+    background-color: white;
+    color: black !important;
+}
+
+
+.right {
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.btn-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    background-color: #0b5ed7;
+    transition: ease-in all 0.2s;
+}
+
+.edit-btn-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    right: 90px;
+    background-color: #0b5ed7;
+    transition: ease-in all 0.2s;
+}
+
+.delete-btn-container{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    right: 150px;
+    background-color: #0b5ed7;
+    transition: ease-in all 0.2s;
+}
+
+.floating-btn {
+    all: unset;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-container:hover,
+.edit-btn-container:hover,
+.delete-btn-container:hover {
+    transform: translateY(-5px);
+    /* box-shadow: 0 0 1px 1px black; */
+}
+
+.container-fluid .error {
+    color: 	#ff3333;
+}
+
+.card {
+    background-color: #F8F8FF;
+    transition: ease-in all 0.8s;
+}
+
+.card:hover {
+    -webkit-box-shadow: 10px 10px 76px -27px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 76px -27px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 76px -27px rgba(0, 0, 0, 0.75);
+}
+
+label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-switch .form-check-input{
+    width: 4rem !important;
+    height: 2rem !important;
+}
+
+textarea{
+    resize:none;    
+}
